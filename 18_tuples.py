@@ -1,0 +1,21 @@
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+strings = ('oscar', 'sergio', 'diego', 'oscar')
+print(numbers)
+print(type(numbers))
+print('0 ->', numbers[0])
+print('-1 ->', numbers[-1])
+#-----------------------------------
+print(strings)
+print(type(strings))
+print(strings)
+print(strings.index('diego'))
+print(strings.count('oscar'))
+#-----------------------------------
+my_list = list(strings)
+print(my_list)
+print(type(my_list))
+my_list[3] = 'maria'
+print(my_list)
+my_tuple = tuple(my_list)
+print(my_tuple)
+print(type(my_tuple))
